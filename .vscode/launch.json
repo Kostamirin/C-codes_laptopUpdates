@@ -17,10 +17,10 @@
         {
           "description": "Enable pretty-printing for gdb",
           "text": "-enable-pretty-printing",
-          "ignoreFailures": true
+          "ignoreFailures": false
         }
       ],
-      "preLaunchTask": "build active file", // Сначала компиляция
+      "preLaunchTask": "tasks", // Сначала компиляция
       "internalConsoleOptions": "openOnSessionStart"
     }
   ]

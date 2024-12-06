@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {            
-            "label": "build active file",
+            "label": "tasks",
             "type": "shell",
             "command": "/usr/bin/g++",
             "args": [
