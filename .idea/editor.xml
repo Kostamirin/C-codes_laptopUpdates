@@ -248,6 +248,8 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=IdentifierTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003A1760_002E_0020Minimum_0020Limit_0020of_0020Balls_0020in_0020a_0020Bag_002Ecpp_002Fl_003ALeetCode_003F1760_002E_0020Minimum_0020Limit_0020of_0020Balls_0020in_0020a_0020Bag_002Ecpp/@EntryIndexedValue" value="ForceIncluded" type="string" />
+    <option name="/Default/CodeStyle/Generate/=CppHashFunction/@KeyIndexDefined" value="true" type="bool" />
+    <option name="/Default/CodeStyle/Generate/=CppHashFunction/Options/=CombineFunction/@EntryIndexedValue" value="shift and xor" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppSmartPointerVsMakeFunction/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppCStyleCast/@EntryIndexRemoved" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppFunctionalStyleCast/@EntryIndexRemoved" />
