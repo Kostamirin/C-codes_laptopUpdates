@@ -19,4 +19,5 @@ add_executable(C-codes ${SOURCES}
         "../../C++ (personal_works)/Star Pyramid Cycle.cpp"
         "../../C++ (personal_works)/Star Pyramid.cpp"
         "../../LeetCode/1930. Unique Length-3 Palindromic Subsequences.cpp"
-        "../../C++ (personal_works)/Max_number_i3870.cpp")
+        "../../C++ (personal_works)/Max_number_i3870.cpp"
+        "../../LeetCode/29. Divide Two Integers.cpp")
