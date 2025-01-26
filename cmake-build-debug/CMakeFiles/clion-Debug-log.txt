@@ -1,0 +1,422 @@
+/home/kley-muner/Documents/Programms/clion-2024.3.2/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/kley-muner/Documents/Programms/clion-2024.3.2/bin/ninja/linux/x64/ninja -G Ninja -S /home/kley-muner/Documents/Works/C-codes -B /home/kley-muner/Documents/Works/C-codes/cmake-build-debug
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:15
+
+  when parsing string
+
+    C++ (personal_works)/CAT - just a cat/CAT \uF027 print .cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:18
+
+  when parsing string
+
+    C++ (personal_works)/Some useless works/C++ (data\uF022namespace).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:19
+
+  when parsing string
+
+    C++ (personal_works)/Some useless works/C++ (hungry\uF025).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:45
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (start).dSYM/Contents/Resources/DWARF/C++ (start)
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:46
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (start).dSYM/Contents/Info.plist
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:47
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (переменные).dSYM/Contents/Resources/DWARF/C++ (переменные)
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:48
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (переменные).dSYM/Contents/Info.plist
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:49
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/Переменная1.dSYM/Contents/Resources/DWARF/Переменная1
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:50
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/Переменная1.dSYM/Contents/Info.plist
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:51
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (start).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:52
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (string).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:53
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/C++ (переменные).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:54
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:55
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/Переменная.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:56
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (start\uF022basic data tipes)/Переменная1.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:57
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (switch\uF022 if analog)/#include \uF023iostream\uF024.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:58
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (switch\uF022 if analog)/tempCodeRunnerFile
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:59
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++ (switch\uF022 if analog)/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:88
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(local\uF022global varibles)/C++(local\uF022global varibles).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:89
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(local\uF022global varibles)/tempCodeRunnerFile
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:90
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(local\uF022global varibles)/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:94
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/C++(Car\uF022recolor).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:95
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/C++(Constructor\uF022\uF022Другой способо ия).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:96
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/C++(NEW Obgects\uF022Classes).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:97
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/C++(Objects\uF022Classes).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:98
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/tempCodeRunnerFile
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:99
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(Objects\uF022Classes)/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:107
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(public\uF022private)/C++(public\uF022private).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:108
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(public\uF022private)/tempCodeRunnerFile
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:109
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(public\uF022private)/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:121
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(template\uF023typename L\uF024  )/C++(template).cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:122
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(template\uF023typename L\uF024  )/tempCodeRunnerFile
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:123
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(template\uF023typename L\uF024  )/tempCodeRunnerFile.cpp
+
+  Invalid character escape '\u'.
+
+
+CMake Error at CMakeLists.txt:11 (add_executable):
+  Syntax error in cmake code at
+
+    /home/kley-muner/Documents/Works/C-codes/CMakeLists.txt:144
+
+  when parsing string
+
+    C++_base__personal-learning/C++ (useful string methods)/C++(~return)/C++(return \uF020names\uF020).cpp
+
+  Invalid character escape '\u'.
+
+
+-- Configuring incomplete, errors occurred!
