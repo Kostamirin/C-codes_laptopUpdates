@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/kleymuner2131/Документы/Works/C-codes Select CMakeLists.txt
