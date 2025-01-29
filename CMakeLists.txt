@@ -13,4 +13,6 @@ endif()
 # Создаем исполняемый файл
 add_executable(C-codes ${SOURCES}
         "LeetCode/1760. Minimum Limit of Balls in a Bag.cpp"
+        "LeetCode/1462. Course Schedule IV.cpp"
+        "C++ (personal_works)/Сколько цифр необходимо преобрести относительно количества кабинетов.cpp"
 )
