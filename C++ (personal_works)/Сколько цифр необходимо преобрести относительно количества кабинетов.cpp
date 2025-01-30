@@ -5,6 +5,7 @@
 #include <cmath>
 #include "helper.cpp"
 
+
 int main(){
     something something;
     int number;
@@ -12,8 +13,8 @@ int main(){
     //int answer = 6;
     // Можно будет создать другие вариации потом
     if (number <=0){std::cout <<"Error"; return 0;}
-    std::vector<int> answer;
-    for (int i = 0; i <= number; i++)
+    std::vector<int> answer = {0,0,0,0,0,0,0,0,0,0};
+    for (int i = 1; i <= number; i++)
     {
         std::vector<int> base = something.base(i);
         answer = something.change(answer, base);

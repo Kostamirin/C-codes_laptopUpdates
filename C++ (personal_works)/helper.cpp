@@ -23,7 +23,7 @@ public:
     }
     // функция добавляет необходимое количество цифр, относительно проверенного числа(одного)
     static std::vector<int> change(std::vector<int> & answer, std::vector<int> base){
-        for (int i = 0; i < base.size(); i++)
+        for (const auto i : base)
         {
             switch (base[i])
             {
