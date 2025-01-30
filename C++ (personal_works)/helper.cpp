@@ -12,8 +12,8 @@ public:
         if (a < 10){return {a};}
         else if (a >= 10 && a < 100)
         {
-            new b = a;
-            return {static_cast<int>(floor(b/=10)),a%10}; delete b;
+            int b = a;
+            return {static_cast<int>(floor(b/=10)),a%10};
         }
         else if (a >=100 && a < 1000)
         {
