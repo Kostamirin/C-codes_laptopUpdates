@@ -12,7 +12,8 @@ public:
         if (a < 10){return {a};}
         else if (a >= 10 && a < 100)
         {
-            return {static_cast<int>(floor(a/=10)),a%10};
+            new b = a;
+            return {static_cast<int>(floor(b/=10)),a%10}; delete b;
         }
         else if (a >=100 && a < 1000)
         {
@@ -23,7 +24,7 @@ public:
     }
     // функция добавляет необходимое количество цифр, относительно проверенного числа(одного)
     static std::vector<int> change(std::vector<int> & answer, std::vector<int> base){
-        for (const auto i : base)
+        for (int i = 0; i < base.size(); i++)
         {
             switch (base[i])
             {
