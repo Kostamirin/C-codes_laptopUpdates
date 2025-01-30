@@ -21,23 +21,9 @@ int main(){
     }
     int one=0; int two=0; int three=0; int four=0; int five=0;
     int six=0; int seven=0; int eight=0; int nine=0; int zero=0;
-    for (int i = 0; i < answer.size(); i++)
-    {
-        switch (i)
-        {
-            case 0: one = answer[i]; break;
-            case 1: two = answer[i]; break;
-            case 2: three = answer[i]; break;
-            case 3: four = answer[i]; break;
-            case 4: five = answer[i]; break;
-            case 5: six = answer[i]; break;
-            case 6: seven = answer[i]; break;
-            case 7: eight = answer[i]; break;
-            case 8: nine = answer[i]; break;
-            case 9: zero = answer[i]; break;
-            default: break;
-        }
-    }
+    one = answer[0]; two = answer[1]; three = answer[2];
+    four = answer[3];five = answer[4]; six = answer[5]; seven = answer[6];
+    eight = answer[7]; nine = answer[8]; zero = answer[9];
 
     std::cout <<"One's -- " <<one <<std::endl;
     std::cout <<"Two's -- " <<two <<std:: endl;
