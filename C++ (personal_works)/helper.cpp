@@ -17,8 +17,8 @@ public:
         }
         else if (a >=100 && a < 1000)
         {
-            //! Стоит фиксить
-            return {static_cast<int>(floor(a/=100)),static_cast<int>(floor(a%10)),a%100};
+            int b = a; int c = a;
+            return {static_cast<int>(floor(a/=100)),static_cast<int>(floor((b/10)%10)),c%10};
         }
         else{std::cout <<"Error"; return {0};}
     }
