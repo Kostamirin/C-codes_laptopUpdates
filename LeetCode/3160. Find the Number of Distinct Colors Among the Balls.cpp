@@ -47,6 +47,12 @@ int main(){
             std::cout <<result[i] <<", ";
         }
         std::cout <<']' <<std::endl;
+        std::cout <<'[';
+        for (auto i : output)
+        {
+            std::cout <<output[i] <<', ';
+        }
+        std::cout <<']' <<std::endl;
     }
     return 0;
 }
