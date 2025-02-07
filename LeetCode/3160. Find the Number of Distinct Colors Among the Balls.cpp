@@ -30,7 +30,7 @@ int main(){
     std::vector<int> result = solution.queryResults(4, queries);
     if (result == output)
     {
-        std::sout <<"Fine" <<std::endl;
+        std::cout <<"Fine" <<std::endl;
         std::cout <<'[' ;
         for (auto i : result)
         {
