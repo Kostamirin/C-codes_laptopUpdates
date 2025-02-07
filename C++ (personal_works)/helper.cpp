@@ -20,6 +20,11 @@ public:
             int b = a; int c = a;
             return {static_cast<int>(floor(a/=100)),static_cast<int>(floor((b/10)%10)),c%10};
         }
+        else if (a >= 1000 && a < 10000)
+        {
+            int b = a; int c = a; int d = a;
+            return {static_cast<int>(floor(a/=1000)),static_cast<int>(floor((b/10)%10)),static_cast<int>(floor((c/100)%10)),d%10};
+        }
         else{std::cout <<"Error"; return {0};}
     }
     // функция добавляет необходимое количество цифр, относительно проверенного числа(одного)
