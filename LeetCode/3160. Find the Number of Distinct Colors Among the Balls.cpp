@@ -9,14 +9,11 @@ public:
     vector<int> queryResults(int limit, vector<vector<int>>& queries) {
         // код должен возвращать значение количества разных цветов на каждом этапе проверки
         std::vector<int> result;
-        for (int i = 0; i < queries.size(); i++) {
-            int count = 0;
-            for (int j = 0; j < queries[i].size(); j++) {
-                if (queries[i][j] <= limit) {
-                    count++;
-                }
-            }
-            result.push_back(count);
+        for (int i; i < queries.size(); i++)
+        {
+            int left = queries[i][0];
+            int right = queries[i][1];
+
         }
         return result;
     }

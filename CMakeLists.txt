@@ -17,4 +17,5 @@ add_executable(C-codes ${SOURCES}
         "C++ (personal_works)/Сколько цифр необходимо преобрести относительно количества кабинетов.cpp"
         "C++ (personal_works)/helper.cpp"
         "LeetCode/3160. Find the Number of Distinct Colors Among the Balls.cpp"
+        "LeetCode/2349. Design a Number Container System.cpp"
 )
