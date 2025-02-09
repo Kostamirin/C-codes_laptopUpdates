@@ -1,27 +1,54 @@
 #include <vector>
+#include <string>
+#include <iostream>
 #include <algorithm>
 
-struct Solution{
-public:
-    double findMedian (std::vector <int> nums1, std::vector <int> nums2){
-        std::vector <int> sum = nums1 + nums2;
-        sort(sum.begin(), sum.end());
-        int n = sum.size();
-        if (n % 2 == 1)
-        {
-            return sum[n / 2];
-        }
-        else
-        {
-            return (sum[n / 2 - 1] + sum[n / 2]) / 2.0;
+// float arifmetic(std::vector<int> numbers, int size){
+//     double sum;
+//     for(int i = 0; i < size; i++){
+//         sum += numbers[i];
+//     }
+
+//     double arifmetic = sum / size;
+//     return arifmetic;
+
+// }
+
+std::vector<int> sorting (std::vector<int> numbers, int size){
+    for (int i = 0; i < size - 1; i++) {
+        for (int j = 0; j < size - i - 1; j++){
+            if (numbers[j] > numbers[j + 1]) {
+                int temp = numbers[j];
+                numbers[j] = numbers[j + 1];
+                numbers[j + 1] = temp;
+            }
         }
     }
-};
 
-int main(){
-    Solution solution;
-    std::vector <int> nums1 = {1, 3,4,1};
-    std::vector <int> nums2 = {2,11,13,5};
-    std::cout <<solution.findMedian(nums1, nums2) <<std::endl;
-    return 0;
+    return numbers;
 }
+
+class Solution {
+public:
+    double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
+        for(int i = 0; i < nums2.size(); i++){
+            nums1.push_back(nums2[i]);
+        }
+    
+    const int size = nums1.size();
+    sorting(nums1, nums1.size());
+    
+    std::vector<int> numbers = sorting(nums1, nums1.size());
+    
+    if(size % 2 == 0){
+        double median1 = numbers[size / 2 -1];
+        double median2 = numbers[size / 2];
+        double something  = (median1 + median2) / 2;
+        return something;
+    }
+    else{
+        double something = numbers[size / 2];
+        return something;
+    }
+}
+};
