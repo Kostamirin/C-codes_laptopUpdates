@@ -1,32 +1,22 @@
 //
 // Created by kley-muner on 1/29/25.
 //
-//#include <algorithm>
 #include <vector>
 #include <cmath>
 
 class something{
 public:
     // функция выдает значение цифры
-    static std::vector<int>  base(int a){
-        if (a < 10){return {a};}
-        else if (a >= 10 && a < 100)
-        {
-            int b = a;
-            return {static_cast<int>(floor(b/=10)),a%10};
+    static std::vector<int> base(int a){
+        std::vector<int> digits;
+        while (a > 0) {
+            digits.push_back(a % 10);
+            a /= 10;
         }
-        else if (a >=100 && a < 1000)
-        {
-            int b = a; int c = a;
-            return {static_cast<int>(floor(a/=100)),static_cast<int>(floor((b/10)%10)),c%10};
-        }
-        else if (a >= 1000 && a < 10000)
-        {
-            int b = a; int c = a; int d = a;
-            return {static_cast<int>(floor(a/=1000)),static_cast<int>(floor((b/10)%10)),static_cast<int>(floor((c/100)%10)),d%10};
-        }
-        else{std::cout <<"Error"; return {0};}
+        std::reverse(digits.begin(), digits.end());
+        return digits;
     }
+
     // функция добавляет необходимое количество цифр, относительно проверенного числа(одного)
     static std::vector<int> change(std::vector<int> & answer, std::vector<int> base){
         for (int i = 0; i < base.size(); i++)
