@@ -19,4 +19,5 @@ add_executable(C-codes ${SOURCES}
         "LeetCode/3160. Find the Number of Distinct Colors Among the Balls.cpp"
         "LeetCode/2349. Design a Number Container System.cpp"
         "C++ (personal_works)/range_sum.cpp"
+        "C++ (personal_works)/Calculator Versions/University Grading System.cpp"
 )
