@@ -14,7 +14,7 @@ float calculateAverageGrade(std::vector<float> examScores) {
     {
         best.push_back(examScores[i]);
     }
-    auto it = find_if(examScores.begin(), examScores.end(), [](float num){return num > 90.0;});
+    auto it = find_if(examScores.begin(), examScores.end(), [examScores](float num){return num > 90.0;});
     if (it != examScores.end())
     {
         float answer = ((best[0] + best[1] + best[2])/3);
