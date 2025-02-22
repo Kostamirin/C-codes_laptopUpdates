@@ -10,7 +10,7 @@ float calculateAverageGrade(std::vector<float> examScores) {
     sort(examScores.begin(), examScores.end());
     std::reverse(examScores.begin(), examScores.end());
     vector<float> best;
-    for (const int i : 3)
+    for (int i; i < 3; i++)
     {
         best.push_back(examScores[i]);
     }
