@@ -22,4 +22,6 @@ add_executable(C-codes ${SOURCES}
         "C++ (personal_works)/Calculator Versions/University Grading System.cpp"
         "LeetCode/889. Construct Binary Tree from Preorder and Postorder Traversal.cpp"
         "LeetCode/2467. Most Profitable Path in a Tree.cpp"
+        "LeetCode/873. Length of Longest Fibonacci Subsequence.cpp"
+        "LeetCode/2460. Apply Operations to an Array.cpp"
 )
