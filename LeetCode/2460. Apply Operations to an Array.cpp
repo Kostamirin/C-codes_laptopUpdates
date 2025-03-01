@@ -31,6 +31,10 @@ public:
             {
                 answer.push_back(0);
                 answer.erase(answer.begin()+ i);
+                if (find_if(answer.begin()+i, answer.end(), [](int num){return num != 0;}))
+                {
+                    i--;
+                }
             }
         }
         //* Добавление нулей до возвращения исходного размера
