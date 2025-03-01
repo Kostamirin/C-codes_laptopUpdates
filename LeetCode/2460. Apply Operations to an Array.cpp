@@ -7,6 +7,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
+        vector<int> answer = nums;
         if (nums.size() == 2)
         {
             if (nums[0] == 0 && nums[1]==0){return nums;}
@@ -14,7 +15,8 @@ public:
             else if (nums[0] == nums[1]){nums[0]*=2; nums[1]=0; return nums;}
             else {return nums;}
         }
-        for (int i = 0; i < nums.size(); i++)
+        int n = nums.size();
+        for (int i = 0; i < n-1; i++)
         {
             if (nums[i] == nums[i+1])
             {
@@ -22,13 +24,19 @@ public:
                 nums[i+1] = 0;
             }
         }
-        for (int i = 0; i <= nums.size(); i++)
+        for (int i = 0; i < n; i++)
         {
             if (nums[i] == 0)
             {
                 nums.push_back(0);
                 nums.erase(std::begin(nums) + i);
             }
+            else{continue;}
+        }
+        //* Добавление нулей до возвращения исходного размера
+        while (nums.size() < n)
+        {
+            nums.push_back(0);
         }
         return nums;
     }
