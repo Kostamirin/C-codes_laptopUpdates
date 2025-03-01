@@ -24,14 +24,13 @@ public:
                 answer[i+1] = 0;
             }
         }
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < answer.size(); i++)
         {
             if (answer[i] == 0)
             {
                 answer.push_back(0);
-                answer.erase(std::begin(answer) + i);
+                answer.erase(answer.begin()+ i);
             }
-            else{continue;}
         }
         //* Добавление нулей до возвращения исходного размера
         while (answer.size() < n)
