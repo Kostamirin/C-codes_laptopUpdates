@@ -7,38 +7,38 @@ using namespace std;
 class Solution {
 public:
     vector<int> applyOperations(vector<int>& nums) {
-        vector<int> answer = nums;
-        if (nums.size() == 2)
+        vector<int> answer = nums; // Create a copy of nums to work with
+        if (answer.size() == 2)
         {
-            if (nums[0] == 0 && nums[1]==0){return nums;}
-            else if (nums[0] == 0){nums.push_back(0);nums.erase(nums.begin()); return nums;}
-            else if (nums[0] == nums[1]){nums[0]*=2; nums[1]=0; return nums;}
-            else {return nums;}
+            if (answer[0] == 0 && answer[1]==0){return answer;}
+            else if (answer[0] == 0){answer.push_back(0);answer.erase(answer.begin()); return answer;}
+            else if (answer[0] == answer[1]){answer[0]*=2; answer[1]=0; return answer;}
+            else {return answer;}
         }
-        int n = nums.size();
+        int n = answer.size();
         for (int i = 0; i < n-1; i++)
         {
-            if (nums[i] == nums[i+1])
+            if (answer[i] == answer[i+1])
             {
-                nums[i] *= 2;
-                nums[i+1] = 0;
+                answer[i] *= 2;
+                answer[i+1] = 0;
             }
         }
         for (int i = 0; i < n; i++)
         {
-            if (nums[i] == 0)
+            if (answer[i] == 0)
             {
-                nums.push_back(0);
-                nums.erase(std::begin(nums) + i);
+                answer.push_back(0);
+                answer.erase(std::begin(answer) + i);
             }
             else{continue;}
         }
         //* Добавление нулей до возвращения исходного размера
-        while (nums.size() < n)
+        while (answer.size() < n)
         {
-            nums.push_back(0);
+            answer.push_back(0);
         }
-        return nums;
+        return answer;
     }
 };
 
