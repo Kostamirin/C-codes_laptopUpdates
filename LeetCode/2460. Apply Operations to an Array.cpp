@@ -24,14 +24,14 @@ public:
                 answer[i+1] = 0;
             }
         }
-        //! Почему-то пропускает некоторые нули (возможно из-за изменения массива
+        //// Почему-то пропускает некоторые нули (возможно из-за изменения массива
         for (int i = 0; i < n; i++)
         {
             if (answer[i] == 0)
             {
                 answer.push_back(0);
                 answer.erase(answer.begin()+ i);
-                if (find_if(answer.begin()+i, answer.end(), [](int num){return num != 0;}))
+                if (any_of(answer.begin()+i, answer.end(), [](bool num){return num != 0;}))
                 {
                     i--;
                 }
